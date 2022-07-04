@@ -18,7 +18,7 @@ export default function Blog({articleDes, quote}) {
 	}, [])
 
 	return (
-		<div className='max-w-3xl px-4 py-8 flex flex-col gap-10'>
+		<div className='max-w-3xl px-4 py-8 flex flex-col gap-10 mx-auto'>
 			<Head>
 				<title>{title}</title>
 			</Head>
